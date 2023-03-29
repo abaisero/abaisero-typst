@@ -81,7 +81,3 @@
 /* misc */
 
 #let iter(i) = $\ ^((#i))$
-#let to = $arrow.r$
-#let mapsto = $arrow.r.bar$
-#let implies = $arrow.r.double.long$
-#let cond = symbol("|", ("double", "‖"))
