@@ -101,27 +101,28 @@
       vmodel, "vmodel", "Parametric V model", $vmodel(h\; theta)$,
       upolicy, "upolicy", "Policy U function", $upolicy: hset times sset -> RR$,
       umodel, "umodel", "Parametric U model", $upolicy(h, s\; theta)$,
+      apolicy, "apolicy", "Policy A function", $apolicy: hset times aset -> RR$,
+      amodel, "amodel", "Parametric A model", $amodel(h, a\; theta)$,
     )
   ),
   (
     name: "Misc",
     commands: (
       $iter(k)$, "iter(k)", "Superscript indicating iteration", [action $a iter(i)$],
+      $sim$, "sim", "Superscript indicating iteration", [action $a iter(i)$],
     ),
   ),
 )
 
-#{
-  set align(center)
-  set text(17pt)
-  [ abaisero.typ \ \ ]
-
-  set text(13pt)
-  [ 
-    Andrea Baisero \
-    March 28, 2023
+#align(center, {
+  text(17pt)[
+    abaisero.typ \ \
   ]
-}
+  text(13pt)[
+    Andrea Baisero \
+    March 29#super[th], 2023
+  ]
+})
 
 = Commands
 

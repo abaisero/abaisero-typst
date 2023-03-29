@@ -78,6 +78,10 @@
 #let upolicy = $U^pi$
 #let umodel = $hat(U)$
 
+#let apolicy = $A^pi$
+#let amodel = $hat(A)$
+
 /* misc */
 
 #let iter(i) = $\ ^((#i))$
+#let sim = $tilde.op$
