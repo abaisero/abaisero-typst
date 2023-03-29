@@ -1,7 +1,8 @@
 #import "abaisero.typ": *
 
 #set page(numbering: "1")
-#set heading(numbering: "1.a)")
+#set heading(numbering: "1")
+#show heading.where(level: 2): it => it.body
 
 #set table(
   stroke: 0pt,
@@ -25,7 +26,7 @@
       $kplus$, "kplus", "the Kleene plus operator", $cal(X) kplus := union_(k=1)^oo cal(X)^k$,
       $softmax$, "softmax", "", "",
       $softmin$, "softmin", "", "",
-      $sign$, "sign", "", $x = sign(x) dot.c |x|$,
+      $sign$, "sign", "", $x = sign(x) dot.c abs(x)$,
     ),
   ),
   (
@@ -59,7 +60,7 @@
       $Ent$, "Ent", "Entropy", $Ent[x] = - Exp[log Pr(x)]$,
       $Exp$, "Exp", "Expectation", $Exp[f(x)] = sum_x Pr(x) f(x)$,
       $Ind$, "Ind", "Indicator function", $Pr(x = 0) = Exp[Ind[ x = 0]]$,
-      $KL$, "KL", "KL-divergence", $KL( p || q ) := Exp_(x~p)[ log (p(x) / q(x)) ]$,
+      $KL$, "KL", "KL-divergence", $KL( p cond.double q ) := Exp_(x~p)[ log (p(x) / q(x)) ]$,
       $DKL$, "DKL", "KL-divergence (alternative)", "",
       $MI$, "MI", "Mutual Information", "",
       $Var$, "Var", "Variance", $Var[x] = Exp[ x^2 ] - Exp[ x ]^2$,
@@ -109,6 +110,8 @@
       $to$, "to", "", $f: cal(X) to cal(Y)$,
       $mapsto$, "mapsto", "", $"function" x mapsto 10 dot.c x$,
       $implies$, "implies", "", $a and b implies a$,
+      $cond$, "cond", "", $Pr(y cond x)$,
+      $cond.double$, "cond.double", "", $KL(p cond.double q)$,
     ),
   ),
 )
