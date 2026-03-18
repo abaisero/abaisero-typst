@@ -16,3 +16,4 @@
 #let sign = $op("sign")$
 
 #let evaluated(content) = $lr(content|, size: #150%)$
+#let tuple(..args) = $lr(chevron.l #{ args.pos().join(", ") } chevron.r)$
