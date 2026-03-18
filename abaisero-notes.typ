@@ -36,6 +36,8 @@
 
   show ref: suppressed-ref(suppress-ref-errors)
 
+  set par.line(numbering: n => [#text(gray, [#n])])
+
   show: great-theorems-init
 
   content
