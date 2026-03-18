@@ -11,4 +11,4 @@
 #let An = $op(bold("An"))$
 #let Pa = $op(bold("Pa"))$
 #let Ch = $op(bold("Ch"))$
-#let De = $op(bold("Desc"))$
+#let De = $op(bold("De"))$
