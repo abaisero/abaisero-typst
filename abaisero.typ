@@ -3,6 +3,7 @@
 #import "abaisero-diagrams.typ": *
 #import "abaisero-fancy-table.typ": *
 #import "abaisero-functions.typ": *
+#import "abaisero-inline-enum.typ": *
 #import "abaisero-layout.typ": *
 #import "abaisero-linalg.typ": *
 #import "abaisero-margins.typ": *
