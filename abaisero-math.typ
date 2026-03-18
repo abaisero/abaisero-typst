@@ -14,3 +14,5 @@
 #let softmax = $op("softmax")$
 #let softmin = $op("softmin")$
 #let sign = $op("sign")$
+
+#let evaluated(content) = $lr(content|, size: #150%)$
