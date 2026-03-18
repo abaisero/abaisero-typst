@@ -3,6 +3,7 @@
 #import "@preview/ilm:1.4.1": ilm
 #import "abaisero-bibliography.typ": set-bibfile
 #import "abaisero-missing-references.typ": possible-missing-ref, suppressed-ref
+#import "abaisero-theorems.typ": great-theorems-init
 
 #let notes(
   ..args,
@@ -34,6 +35,8 @@
   set figure(placement: top)
 
   show ref: suppressed-ref(suppress-ref-errors)
+
+  show: great-theorems-init
 
   content
 }
