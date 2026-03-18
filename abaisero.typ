@@ -16,3 +16,4 @@
 #import "abaisero-rl.typ": *
 #import "abaisero-stats.typ": *
 #import "abaisero-text.typ": *
+#import "abaisero-theorems.typ": *
