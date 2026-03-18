@@ -1,5 +1,6 @@
 #import "abaisero-bibliography.typ": *
 #import "abaisero-causality.typ": *
+#import "abaisero-clues.typ": *
 #import "abaisero-diagrams.typ": *
 #import "abaisero-fancy-table.typ": *
 #import "abaisero-functions.typ": *
