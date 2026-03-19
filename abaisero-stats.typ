@@ -15,8 +15,13 @@
 
 #let Categorical = $op("Categorical")$
 #let Dirichlet = $op("Dirichlet")$
+#let Geometric = $op("Geom")$
 #let Normal = $op("Normal")$
 #let Uniform = $op("Uniform")$
+
+#let Cat = $op("Cat")$
+#let Dir = $op("Dir")$
+#let Geom = $op("Geom")$
 
 #let sim = $class("binary", tilde.op)$
 #let indep = $class("large", perp #h(-1em) perp)$
