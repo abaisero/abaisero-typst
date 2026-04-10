@@ -16,6 +16,8 @@
   content
 }
 
+#let heading-separator = $::$
+
 #let highlight-info = highlight.with(fill: blue.lighten(50%))
 #let highlight-important = highlight.with(fill: purple.lighten(50%))
 #let highlight-warning = highlight.with(fill: orange.lighten(50%))
