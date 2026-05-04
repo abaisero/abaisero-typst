@@ -18,6 +18,11 @@
   counter: theorem-counter,
 )
 
+#let assumption = mathblock(
+  blocktitle: "Assumption",
+  counter: theorem-counter,
+)
+
 #let proposition = mathblock(
   blocktitle: "Proposition",
   counter: theorem-counter,
