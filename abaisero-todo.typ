@@ -1,3 +1,6 @@
 // todo
 
-#let inline-todo(content) = [(#text(red, weight: "bold")[TODO:] #content)]
+#let inline-todo(content) = [
+  #set text(red, weight: "bold")
+  ((#text(black, content)))
+]
